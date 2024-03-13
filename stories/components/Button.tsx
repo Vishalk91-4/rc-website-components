@@ -1,4 +1,3 @@
-// src/components/Button.tsx
 import React from 'react';
 import Spinner from './Spinner';
 export interface ButtonProps {

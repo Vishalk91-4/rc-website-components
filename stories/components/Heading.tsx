@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 export interface HeadingProps {
   size: number | 'display';
-  children: ReactNode;  // Add this line
+  children: ReactNode;
 }
 
 const Heading: React.FC<HeadingProps> = ({ size = 64, children }) => {
